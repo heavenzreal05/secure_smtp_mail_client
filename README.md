@@ -381,13 +381,13 @@ be able to connect through the configured SOCKS5 proxy.
 Run:
 
 ``` bash
-python main.py
+python smtp_client.py
 ```
 
 or, depending on your Python installation:
 
 ``` bash
-python3 main.py
+python3 smtp_client.py
 ```
 
 The GUI should open.
