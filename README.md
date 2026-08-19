@@ -408,44 +408,6 @@ The GUI should open.
 The attachment is optional. If no attachment is selected, only the email
 body is sent.
 
-## SMTP Credentials
-
-Do not commit passwords into Git.
-
-Do not put passwords directly into source code.
-
-For real deployments, consider using:
-
--   Environment variables
--   OS credential stores
--   A dedicated secrets manager
--   Provider-specific app passwords where required
-
-For example, do not commit:
-
-``` text
-password = "MyRealPassword123"
-```
-
-to a public repository.
-
-Add secret files to `.gitignore`.
-
-## Gmail and App Passwords
-
-Some providers require an **app password** or another authentication
-mechanism instead of the normal account password.
-
-The exact requirements depend on the provider and account configuration.
-
-The GUI therefore labels the credential field:
-
-``` text
-SMTP Password / App Password
-```
-
-Do not disable account security features merely to make the program
-work.
 
 ## Security Model
 
