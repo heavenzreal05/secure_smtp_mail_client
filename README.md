@@ -2,7 +2,7 @@
 
 A Python desktop SMTP mail client built with **Tkinter**, **smtplib**,
 and **PySocks**. It can optionally attach documents and route its SMTP
-socket connection through a local **Tor SOCKS5 proxy**.
+socket connection through a local **Tor SOCKS5 proxy**. 
 
 > **Purpose:** This project is primarily an educational
 > cybersecurity/networking project for learning SMTP, TLS, SOCKS5
